@@ -1,0 +1,33 @@
+.kal {
+    color: darkblue;
+    font-size: 48px;
+}
+.vas {
+    width: 500px;
+    height: 50vh;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid lightgrey;
+}
+.container {
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 20px;
+}
+.p {
+    font-size: 30px;
+    color: gold;
+    font-family: 'Roboto', sans-serif;
+}
+@media (max-width: 768px) {
+    .kal {
+        font-size: 36px;
+    }
+    .vas {
+        width: 90%;
+        font-size: 16px;
+    }
+    .p {
+        font-size: 24px;
+    }
+}
